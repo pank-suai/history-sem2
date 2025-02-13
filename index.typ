@@ -7,7 +7,6 @@
   lower(it)
 }
 
-
 #show: ilm.with(
   title: [История],
   author: "Панков Василий <pank-su>",
@@ -19,20 +18,18 @@
       )][#h(1em)][#text(author, size: 1.6em)]
   ],
   date: datetime.today(),
-  abstract: [Кто введёт? Насколько краткий конспект? на чём основан?],
+  abstract: [Второй семестр ],
   table-of-contents: outline(depth: 2),
   external-link-circle: false,
 )
 
-#include "src/000_введение.typ"
-
+#include "src/000_революция_в_россии.typ"
 
 /*
 ==============================================================================
                           Далее идут приложения
 ==============================================================================
 */
-
 
 #set heading(numbering: (..nums) => {
   if nums.pos().len() == 1 {
