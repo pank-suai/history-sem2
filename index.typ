@@ -30,7 +30,7 @@
 
 #include "src/002_внутренняя_политика_сов.typ"
 
-#include "src/003_todo.typ"
+#include "src/003_внешняя_политика.typ"
 
 #include "src/004_война.typ"
 
